@@ -1,4 +1,5 @@
 class Book
+    include Lendable
     attr_reader :title, :author
     attr_writer :finished
     attr_accessor :count
